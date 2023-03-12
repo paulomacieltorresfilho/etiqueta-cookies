@@ -1,0 +1,62 @@
+/* ADESIVO PEQUENO
+    --box-width: 3.1cm;
+    --box-height: 1.7cm;
+    --box-h-gap: .2cm;
+    --page-padding-top: 1.3cm;
+    --page-padding-bottom: 1.3cm;
+    --page-padding-left: 0.7cm;
+    --page-padding-right: 0.7cm;
+*/
+
+:root {
+    --box-width: 3.1cm;
+    --box-height: 1.7cm;
+    --box-h-gap: .2cm;
+    --page-padding-top: 1.3cm;
+    --page-padding-bottom: 1.3cm;
+    --page-padding-left: 0.7cm;
+    --page-padding-right: 0.7cm;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    box-sizing: border-box;
+}
+
+body {
+    background-color: tomato;
+    width: 21cm;
+    height: 29.7cm;
+    padding-top: var(--page-padding-top);
+    padding-bottom: var(--page-padding-bottom);
+    padding-left: var(--page-padding-left);
+    padding-right: var(--page-padding-right);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, var(--box-width));
+    gap: 0 var(--box-h-gap);
+}
+
+.adesivo {
+    border: 1px solid white;
+    width: var(--box-width);
+    height: var(--box-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 12px;
+    text-align: center;
+}
+
+.sm {
+    font-size: 7px;
+    margin-bottom: 4px;
+}
