@@ -108,6 +108,10 @@ body {
     font-size: 26px;
 }
 
+.sg::before, .sg::after{
+    content: '\204e';
+}
+
 .sm {
     font-size: 18px;
     /* font-family: 'Comforta'  */
