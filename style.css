@@ -158,3 +158,10 @@ table > * {
 * {
     color:rgba(0,0,0, .6);
 }
+
+.info-num-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
