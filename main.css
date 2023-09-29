@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa';
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid #cecece;
+    border-width: 1px 0;
+}
+
+.group {
+    font-size: 0.9em;
+    display: flex;
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.input-group > input {
+    width: 100%;
+    padding: 10px;
+}
+
+.buttons-group {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons-group > button{
+    font-size: 0.9em;
+    padding: 15px;
+    width: 50%;
+    border-radius: 0;
+    outline: none;
+    border: 1px solid #cecece;
+}
+
+.buttons-group > button:hover {
+    opacity: 50%;
+}
+
+.buttons-group > button:active{
+    opacity: 100%;
+}
+
+.cacau {
+    color: white;
+    background-color: brown;
+}
+
+.baunilha {
+    color: brown;
+    background-color: white;
+}
